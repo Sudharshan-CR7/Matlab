@@ -1,0 +1,125 @@
+ //Vector declaration
+
+--> v=[1,2,3,4,5]
+ v  = 
+
+   1.   2.   3.   4.   5.
+
+--> //column vector
+
+--> v=[1,2,3,4,5]'
+ v  = 
+
+   1.
+   2.
+   3.
+   4.
+   5.
+
+--> //Another way to create a column vector is through ;
+
+--> v=[1;2;3;4;5]
+ v  = 
+
+   1.
+   2.
+   3.
+   4.
+   5.
+
+--> r=[6,7,8,9,10]
+ r  = 
+
+   6.   7.   8.   9.   10.
+
+--> v
+ v  = 
+
+   1.
+   2.
+   3.
+   4.
+   5.
+
+--> v=[1,2,3,4,5]
+ v  = 
+
+   1.   2.   3.   4.   5.
+
+--> //Appending vectors
+
+--> w=[v,r]
+ w  = 
+
+   1.   2.   3.   4.   5.   6.   7.   8.   9.   10.
+
+--> //Creating a vector using a colon operator
+
+--> v=0:10:50
+ v  = 
+
+   0.   10.   20.   30.   40.   50.
+
+--> x=10:-2:0
+ x  = 
+
+   10.   8.   6.   4.   2.   0.
+
+--> x=-5:0
+ x  = 
+
+  -5.  -4.  -3.  -2.  -1.   0.
+
+--> //linspace command
+
+--> linspace(1,10,5)
+ ans  =
+
+   1.   3.25   5.5   7.75   10.
+
+--> logspace(1,10,5)
+ ans  =
+
+   10.   1778.2794   316227.77   56234133.   1.000D+10
+
+--> length(v)
+ ans  =
+
+   6.
+
+--> //Magnitude of a vectorfind
+
+--> sqrt(v.*v')
+
+Operator .*: Wrong dimensions for operation [1x6] .* [6x1], same dimensions expected.
+
+--> sqrt((v'.*v))
+
+Operator .*: Wrong dimensions for operation [6x1] .* [1x6], same dimensions expected.
+
+--> sqrt(v'*v))
+sqrt(v'*v))
+          ^^
+Error: syntax error, unexpected ), expecting end of file
+
+--> sqrt(v'*v)
+ ans  =
+
+   0.   0.          0.          0.          0.          0.       
+   0.   10.         14.142136   17.320508   20.         22.36068 
+   0.   14.142136   20.         24.494897   28.284271   31.622777
+   0.   17.320508   24.494897   30.         34.641016   38.729833
+   0.   20.         28.284271   34.641016   40.         44.72136 
+   0.   22.36068    31.622777   38.729833   44.72136    50.      
+
+--> //Magnitude of a vector
+
+--> sqrt(v'*v)
+ ans  =
+
+   0.   0.          0.          0.          0.          0.       
+   0.   10.         14.142136   17.320508   20.         22.36068 
+   0.   14.142136   20.         24.494897   28.284271   31.622777
+   0.   17.320508   24.494897   30.         34.641016   38.729833
+   0.   20.         28.284271   34.641016   40.         44.72136 
+   0.   22.36068    31.622777   38.729833   44.72136    50.      

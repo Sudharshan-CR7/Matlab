@@ -1,0 +1,122 @@
+Startup execution:
+  loading initial environment
+
+--> //Complex numbers declaration
+
+--> c=complex(3,5)
+ c  = 
+
+   3. + 5.i
+
+--> //Exponentials
+
+--> exp(x)
+
+Undefined variable: x
+
+--> x=5;
+
+--> exp(5)
+ ans  =
+
+   148.41316
+
+--> sqrt(x)
+ ans  =
+
+   2.2360680
+
+--> log(x)
+ ans  =
+
+   1.6094379
+
+--> log10(x)
+ ans  =
+
+   0.6989700
+
+--> abs(c)
+ ans  =
+
+   5.8309519
+
+--> angle(c)
+ ans  =
+
+   1.0303768
+
+--> conj(c)
+ ans  =
+
+   3. - 5.i
+
+--> imag(c)
+ ans  =
+
+   5.
+
+--> real(c)
+ ans  =
+
+   3.
+
+--> ans
+ ans  = 
+
+   3.
+
+--> x
+ x  = 
+
+   5.
+
+--> ceil(x)
+ ans  =
+
+   5.
+
+--> floor(x)
+ ans  =
+
+   5.
+
+--> round(x)
+ ans  =
+
+   5.
+
+--> x=1.3
+ x  = 
+
+   1.3
+
+--> floor(x)
+ ans  =
+
+   1.
+
+--> ceil9x)
+ceil9x)
+      ^^
+Error: syntax error, unexpected ), expecting end of file
+
+--> ceil(x)
+ ans  =
+
+   2.
+
+--> cos(x)
+ ans  =
+
+   0.2674988
+
+--> acos(x)
+ ans  =
+
+   0. + 0.7564329i
+
+--> cosh(x)
+ ans  =
+
+   1.9709142

@@ -1,0 +1,21 @@
+Startup execution:
+  loading initial environment
+
+--> function [A,C] = circle(r)
+  > A=3.14*r*r;
+  > C=2*3.14*r;
+  > end
+
+--> r=3
+ r  = 
+
+   3.
+
+--> [A,C]=circle(5)
+ A  = 
+
+   78.5
+ C  = 
+
+   31.400000
+
